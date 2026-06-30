@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0130/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0130/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太霄琅書瓊文帝章訣
+  date: '2015-08-28 23:38:01.826723'
+  source:
+    repository: kanripo
+    path: KR5a0130
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0130_000-ZTDZ.yaml, hash: 'sha256:8b3827417afc97a503751e96cc3ae8fee215f923ccc195b487597cd402fe53ee'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0130_000-ZTDZ.markers.yaml, hash: 'sha256:bb6e6086ef03c254a9ef05af4347a7da2a0471941e19728776856189df979594'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0130_SJB_000-020865b
+    span:
+    - body
+    - 0
+    - 2946
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:108f3ab279d50cdca728eb76e4e75b4882409a9f999dc8f4435f16faeb955984
